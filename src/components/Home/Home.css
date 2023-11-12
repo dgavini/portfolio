@@ -1,0 +1,68 @@
+#Introduction{
+
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.IntrductionPicture{
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+    position: absolute;
+    top: -4rem;
+    right:0;
+}
+
+.IntroductionContent{
+
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+
+}
+
+.Hello{
+
+    font-size: 1.75rem;
+    font-weight: 100;
+
+}
+.Name{
+    color: rgb(15, 164, 60);
+}
+.SocialMedia{
+    display: flex;
+    width: 30vw;
+    justify-content:space-between;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.PictureLink{
+    object-fit:cover ;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+    
+}
+
+.ResumeButton{
+    height: 3rem;
+    width: 7rem;
+    color: White;
+    background-color: rgb(15, 164, 60);
+    cursor: pointer;
+}

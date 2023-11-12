@@ -1,0 +1,29 @@
+.navHeader{
+    height: 5rem;
+    width:100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+h2{
+    text-align: right;
+}
+
+.HeaderMenu{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.HeaderMenu:hover{
+    color: greenyellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid greenyellow;
+}

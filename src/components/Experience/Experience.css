@@ -1,0 +1,82 @@
+#Experience{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ExperienceHeader{
+    height: 5rem;
+    width:100vw;
+}
+
+.ExperienceHeader_span{
+    text-align: right;
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+
+p{
+    text-align: justify;
+    justify-content: right;
+}
+
+
+
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+
+}
+  
+.tab-buttons button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+}
+  
+  .tab-buttons button.active {
+    background-color: #53f469;
+    color: #fff;
+}
+  
+.tab-content {
+    padding: 20px;
+    border: 0;
+    background: rgb(50,50,50);
+    width: 75vw;
+}
+
+.FooterMain{
+
+    width: 100vw;
+    height: 3rem;
+    border: 0;
+
+}
+
+
+.ExperienceContent{
+    font-size: 2rem;
+    font-weight: 500;
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+}
+
+
+
