@@ -27,8 +27,13 @@
 
 
 p{
-    text-align: justify;
-    justify-content: right;
+    text-align:justify;
+    justify-content: center;
+    padding: 2rem;
+    margin:1rem;
+    width:100%;
+    font-size: 1.35rem;
+    font-weight: 200;
 }
 
 
@@ -58,7 +63,9 @@ p{
     padding: 20px;
     border: 0;
     background: rgb(50,50,50);
-    width: 75vw;
+    width: 100%;
+    justify-content: center;
+    margin :2rem;
 }
 
 .FooterMain{
@@ -73,10 +80,18 @@ p{
 .ExperienceContent{
     font-size: 2rem;
     font-weight: 500;
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
     padding: 2rem;
+    text-align: center;
 }
 
+.Individual_Exp{
+
+    align-items: center;
+    margin:1rem;
+    padding: 20px;
+    text-align: center;
+}
 
 
